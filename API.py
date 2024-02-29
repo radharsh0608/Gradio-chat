@@ -69,4 +69,3 @@ def responseFromModel(model,prompt,inputFromUser,temperature,maxTokens,topP,repi
         )
         return completion.choices[0].message.content
 
-responseFromModel("chatNBX - mixtral-8x7b-inst-v0-1-32k","You are an english evaluator. You must return my english skills on a scale of 10.","If you are using an integrated development environment (IDE) like PyCharm or Visual Studio Code, they may have built-in support for managing virtual environments. In that case, you can create and activate virtual environments directly from the IDE",0.5,200,1,1.15)
